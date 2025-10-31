@@ -1,6 +1,6 @@
 var count = 0;
 let colorCount = 0;
-var colors = ["Orchid", "Coral", "HotPink", "Plum"];
+var colors = ["orchid", "coral", "HotPink", "plum"];
 
 
 function makeImage (imageName) {
@@ -50,9 +50,9 @@ $("#needy-button").click(function () {
 
    changeBackground( colors[colorCount] );
 
-   makeImage("Coral"); 
-   makeImage("Orchid"); 
-   makeImage("Plum"); 
+   makeImage("coral"); 
+   makeImage("orchid"); 
+   makeImage("plum"); 
 
 
    count = count + 1;
