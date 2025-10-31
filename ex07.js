@@ -1,13 +1,13 @@
 var count = 0;
 let colorCount = 0;
-var colors = ["orchid", "coral", "HotPink", "plum"];
+var colors = ["Orchid", "Coral", "HotPink", "Plum"];
 
 
 function makeImage (imageName) {
 
  if (colors[colorCount] == imageName) {
-       $("#images").append("<img width=50 src='images/" + imageName + ".png'>");
- }
+       $("#images").append("<img width=50 src='images/" + imageName + ".png'>")}
+};
 
 
 function changeBackground (newColor) {
@@ -50,9 +50,9 @@ $("#needy-button").click(function () {
 
    changeBackground( colors[colorCount] );
 
-   makeImage("coral"); 
-   makeImage("orchid"); 
-   makeImage("plum"); 
+   makeImage("Coral"); 
+   makeImage("Orchid"); 
+   makeImage("Plum"); 
 
 
    count = count + 1;
